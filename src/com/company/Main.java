@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in);
         System.out.println("BMI Calculator");
         System.out.println("Enter your growth: ");
-        double growth = scanner.nextDouble();
+        final double growth = scanner.nextDouble();
         System.out.println("Enter your weight: ");
-        double weight = scanner.nextDouble();
+        final double weight = scanner.nextDouble();
 
         double bmi = weight / (growth * growth);
         System.out.println(bmi);
