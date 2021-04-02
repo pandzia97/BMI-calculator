@@ -30,7 +30,7 @@ public class Main {
         } else if (bmi > 0) {
             System.out.println("Underweight");
         } else {
-            System.out.println("error");
+            System.out.println("Error");
         }
     }
 }
